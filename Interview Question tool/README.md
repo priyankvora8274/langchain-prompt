@@ -3,7 +3,7 @@
 A simple AI application built with **Streamlit**, **LangChain**, and **OpenAI**. Users select a job role, difficulty, topic, and number of questions. The application dynamically generates interview questions with **one-sentence answers**.
 
 ## Why use LangChain PromptTemplate instead of Python f-strings?
- 
+
 Python f-strings are useful for simple string formatting, but LangChain's `PromptTemplate` provides a structured, reusable prompt component that integrates with the rest of a LangChain application.
 
 ### 1. Template validation and input checking
