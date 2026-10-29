@@ -1,0 +1,18 @@
+{
+    "name": null,
+    "input_variables": [
+        "count",
+        "difficulty",
+        "role",
+        "topic"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": " You are an experienced technical interviewer specializing in software and IT roles.\n         Generate exactly {count} {difficulty}-level interview questions for a {role} position, focusing specifically on {topic}.\n\n         Instructions:\n         1. Questions must be relevant to the selected job role and topic.\n         2. Match the complexity of each question to the selected difficulty level.\n         3. Provide a clear, technically accurate answer for each question.\n         4. Each answer must be exactly one concise sentence on a single line.\n         5. Do not include lengthy explanations, examples, or additional paragraphs.\n         6. Avoid duplicate or unrelated questions.\n         7. Number the questions sequentially.\n\n         Output format:\n         Q1. [Interview question]\n         Answer: [One-sentence answer]\n\n         Q2. [Interview question]\n         Answer: [One-sentence answer]\n\n         Continue until exactly {count} questions are generated.\n         ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
