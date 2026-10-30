@@ -99,22 +99,6 @@ python path/to/example.py
 
 Replace `path/to/example.py` with the actual script path. Some examples may require provider-specific configuration.
 
-## Learning Objectives
-
-By exploring these examples, you can practice:
-
-1. Understanding the difference between fixed and parameterized prompts.
-2. Structuring system, human, and assistant messages for chat models.
-3. Working with conversation context across multiple turns.
-4. Reusing prompt patterns with message placeholders.
-5. Applying prompting techniques to interview tools and terminal-based chatbots.
-
-## Possible Next Steps
-
-- Add example inputs and outputs for each exercise.
-- Compare responses from different LLM providers.
-- Add validation, error handling, and tests.
-- Expand the console chatbot with persistent conversation history.
 
 ## Author
 
