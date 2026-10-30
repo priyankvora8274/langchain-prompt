@@ -1,0 +1,2 @@
+HumanMessage(content="I want to request the refund for the order #23435")
+AIMessage(content="I initiated your refund request for the order #2345")
